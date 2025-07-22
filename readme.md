@@ -53,3 +53,11 @@ git config --global user.email sam@example.com
 
 git config --global user.name "ishatesting7"
 git config --global user.email ishatesting7@gmail.com
+
+22nd July 
+---------
+Assignments -
+1. Write a program to identify the value before decimal and after decimal are even or odd.
+eg. 3948.432943 --> Two Parts --> 3948 and 432943 --> Then you will apply remainder by 
+
+
