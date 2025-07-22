@@ -1,0 +1,19 @@
+{
+  "name": "playwright_automation_july2025",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runAllTest":"npx playwright test",
+    "runAllTestWith2Worker":"npx playwright test --workers=2",
+    "showReport":"npx playwright show-report",
+    "runUITest":"npx playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14"
+  }
+}
