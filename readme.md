@@ -59,5 +59,4 @@ git config --global user.email ishatesting7@gmail.com
 Assignments -
 1. Write a program to identify the value before decimal and after decimal are even or odd.
 eg. 3948.432943 --> Two Parts --> 3948 and 432943 --> Then you will apply remainder by 
-
-
+2. 
