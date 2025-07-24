@@ -59,4 +59,10 @@ git config --global user.email ishatesting7@gmail.com
 Assignments -
 1. Write a program to identify the value before decimal and after decimal are even or odd.
 eg. 3948.432943 --> Two Parts --> 3948 and 432943 --> Then you will apply remainder by 
-2. 
+
+
+24th July 
+---------
+1. You will create a String Array and Number Array -> Use Minimum -> 12 Array Methods and show the value in the console area
+2. You will create a String -> Use Minimum -> 15 Strings Methods on them and show them in the console area
+3. You will create a Math Number - 4 to 5 numbers -> Use Minimum -> 20 Math Methods and show them in the console area
