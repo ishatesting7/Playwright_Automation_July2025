@@ -66,3 +66,13 @@ eg. 3948.432943 --> Two Parts --> 3948 and 432943 --> Then you will apply remain
 1. You will create a String Array and Number Array -> Use Minimum -> 12 Array Methods and show the value in the console area
 2. You will create a String -> Use Minimum -> 15 Strings Methods on them and show them in the console area
 3. You will create a Math Number - 4 to 5 numbers -> Use Minimum -> 20 Math Methods and show them in the console area
+
+Programs -
+---------
+1. In an array of Number, find the largest number
+2. In an array of Number, How many are Prime numbers
+3. For a String - 'London' -> Reverse the letter of the String
+4. For a Sentence - "I am new to javascript" -> Reverse the individual word 
+output -> "I ma wen ot tpircsavaj"
+5. Check the given word is Palindrome or not -> 'Mom'
+6. To Display the Fibonacci Series -> 0 1 1 2 3 5 8 13
