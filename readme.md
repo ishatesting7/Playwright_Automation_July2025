@@ -109,3 +109,5 @@ CSS
 3. If you are aware about attribute and value - [attribute='value'] = [id="input-email"]
 4. If you are aware about tag, attribute and value - tag[attribute='value']
 =input[id="input-email"]
+
+Assertion - https://playwright.dev/docs/test-assertions
