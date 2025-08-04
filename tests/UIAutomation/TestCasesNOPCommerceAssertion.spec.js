@@ -10,5 +10,5 @@ test('Assertion Test', async({page})=>{
 
     await expect(page.locator('[type="text"]')).toHaveCount(4)
 
-
+    console.log('Assertion Test Completed Successfully!')
 })

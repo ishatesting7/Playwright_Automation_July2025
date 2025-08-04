@@ -111,3 +111,7 @@ CSS
 =input[id="input-email"]
 
 Assertion - https://playwright.dev/docs/test-assertions
+
+Handle RadioButton and Checkboxes -
+
+https://www.dummyticket.com/dummy-ticket-for-visa-application/
