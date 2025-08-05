@@ -115,3 +115,13 @@ Assertion - https://playwright.dev/docs/test-assertions
 Handle RadioButton and Checkboxes -
 
 https://www.dummyticket.com/dummy-ticket-for-visa-application/
+
+Handle Dropdown and Auto Suggestion Dropdown 
+
+https://www.dummyticket.com/dummy-ticket-for-visa-application/
+
+Handle below 3 Dropdown - 
+
+Purpose of dummy ticket (optional)
+Country
+State
