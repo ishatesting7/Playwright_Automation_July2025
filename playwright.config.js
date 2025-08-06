@@ -36,6 +36,12 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
+
+    {
+      name: 'Smoke',
+      grep: /@Smoke/,
+    },
+
     // {
     //   name:'DemoQA',
     //   testDir:"./tests"

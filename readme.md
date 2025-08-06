@@ -125,3 +125,22 @@ Handle below 3 Dropdown -
 Purpose of dummy ticket (optional)
 Country
 State
+
+20 pages -
+
+pageObject - 20 js file - We will not use tag in this file
+
+test
+  - Admin
+    - Job
+      - Jobtest01.spec.js
+        test('')
+      - Jobtest02.spec.js
+    - User
+  - Leaves
+  - Dashboard
+
+Assigment Details - Total 12 Test Cases - 6th Aug 2025
+1. Login in orange HRMS (beforeEach)
+2. Validate each menu option - Such as Admin, PIM, Leaves and so on
+3. After each validation - Logout - Confirm - You are logout (afterEach)

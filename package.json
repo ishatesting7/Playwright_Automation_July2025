@@ -7,7 +7,11 @@
     "runAllTest":"npx playwright test",
     "runAllTestWith2Worker":"npx playwright test --workers=2",
     "showReport":"npx playwright show-report",
-    "runUITest":"npx playwright test --ui"
+    "runUITest":"npx playwright test --ui",
+    "smokeTestSuite": "npx playwright test --grep @smoke",
+    "regressionTestSuite": "npx playwright test --grep @regression",
+    "smokeTestSuiteviaProject": "npx playwright test --project=smoke",
+    "regressionTestSuiteviaProject": "npx playwright test --project=regression"
   },
   "keywords": [],
   "author": "",
