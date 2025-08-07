@@ -144,3 +144,8 @@ Assigment Details - Total 12 Test Cases - 6th Aug 2025
 1. Login in orange HRMS (beforeEach)
 2. Validate each menu option - Such as Admin, PIM, Leaves and so on
 3. After each validation - Logout - Confirm - You are logout (afterEach)
+
+
+Selector Hub - Installation
+https://selectorshub.com/
+Install for Chrome
