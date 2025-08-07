@@ -149,3 +149,11 @@ Assigment Details - Total 12 Test Cases - 6th Aug 2025
 Selector Hub - Installation
 https://selectorshub.com/
 Install for Chrome
+
+Assigment Details - Total 12 Test Cases - 7th Aug 2025
+
+1. Create an end to end test case for Job Titles
+2. Create an end to end test case for Pay Grades
+3. Create an end to end test case for Employement Status
+4. Create an end to end test case for Job Categories
+5. Create an end to end test case for Work Shifts
