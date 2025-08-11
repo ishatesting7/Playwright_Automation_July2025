@@ -157,3 +157,25 @@ Assigment Details - Total 12 Test Cases - 7th Aug 2025
 3. Create an end to end test case for Employement Status
 4. Create an end to end test case for Job Categories
 5. Create an end to end test case for Work Shifts
+
+
+--------------------------------------------------------
+POM 
+---
+- Class File (Pages Files 15 pages)
+  - page locators 
+  - page functions
+
+- tests
+  - loginTest.spec.js
+  - homepageTest.spec.js
+  - aboutusTest.spec.js
+  
+
+
+
+
+
+
+CUCUMBER
+--------
