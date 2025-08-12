@@ -179,3 +179,40 @@ POM
 
 CUCUMBER
 --------
+
+
+
+LLM + MCP Playwright + Agent
+----------------------------
+
+LLM - Large Language Model
+
+ChatGPT
+Gemini
+Perplexity AI
+Cloude
+
+History
+
+LLM cannot do 
+1. Opening a browser and entering username/password
+2. Connect to the database
+3. Call APIs and Show the response
+
+
+Prompting - Prompt Engineer
+---------------------------
+
+Agents
+------
+An agent is a system who is taking the instruction from an LLM and perform and convert into real time action using external tools
+
+
+User --> Prompt --> LLM --> Agent ---> MCP
+
+What is MCP - Model Context Protocol
+MCP is a kind of framwork, which is reponsible for connecting LLM to real world tools such as DB, Browsers, APIs
+
+
+MCP is acting a bridge --> Between LLM and Your application (AUT)
+
