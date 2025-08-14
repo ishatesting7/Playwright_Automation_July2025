@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "runAllTest":"npx playwright test",
-    "runAllTestWith2Worker":"npx playwright test --workers=2",
-    "showReport":"npx playwright show-report",
-    "runUITest":"npx playwright test --ui",
+    "runAllTest": "npx playwright test",
+    "runAllTestWith2Worker": "npx playwright test --workers=2",
+    "showReport": "npx playwright show-report",
+    "runUITest": "npx playwright test --ui",
     "smokeTestSuite": "npx playwright test --grep @smoke",
     "regressionTestSuite": "npx playwright test --grep @regression",
     "smokeTestSuiteviaProject": "npx playwright test --project=smoke",
@@ -19,5 +19,8 @@
   "devDependencies": {
     "@playwright/test": "^1.54.1",
     "@types/node": "^24.0.14"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
   }
 }

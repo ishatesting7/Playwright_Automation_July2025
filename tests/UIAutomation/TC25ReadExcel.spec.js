@@ -1,9 +1,9 @@
 // tests/loginWithExcel.spec.js
 const { test, expect } = require('@playwright/test');
-const { readExcel, writeExcel } = require('../pages/utility/readAndWriteExcelValue');
+const { readExcelValue, writeExcelValue } = require('../../utility/readExcelValue');
 
-const filePath = './TestDataPRright.xlsx';
-const { data, workbook, sheetName } = readExcel(filePath);
+const filePath = '';
+const { data, workbook, sheetName } = readExcelValue(filePath);
 
 test.describe('Login tests from Excel', () => {
   for (let i = 0; i < data.length; i++) {
@@ -21,7 +21,7 @@ test.describe('Login tests from Excel', () => {
       } catch (err) {
         data[i].result = 'Fail';
       } finally {
-        writeExcel(filePath, data, sheetName, workbook);
+        writeExcelValue(filePath, data, sheetName, workbook);
       }
     });
   }

@@ -216,3 +216,11 @@ MCP is a kind of framwork, which is reponsible for connecting LLM to real world 
 
 MCP is acting a bridge --> Between LLM and Your application (AUT)
 
+==================================================================
+Test Data
+---------
+- Excel ---> JSON ---> Read the value from JSON
+
+- JSON
+- CSV
+- text file
