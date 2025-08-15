@@ -1,8 +1,8 @@
 // tests/loginWithExcel.spec.js
 const { test, expect } = require('@playwright/test');
-const { readExcelValue, writeExcelValue } = require('../../utility/readExcelValue');
+const { readExcelValue, writeExcelValue } = require('../../utility/readExcelDataValue.js');
 
-const filePath = '';
+const filePath = 'TestDataPRright.xlsx';
 const { data, workbook, sheetName } = readExcelValue(filePath);
 
 test.describe('Login tests from Excel', () => {
@@ -11,8 +11,8 @@ test.describe('Login tests from Excel', () => {
     test(`Login test for ${user.username}`, async ({ page }) => {
       try {
         await page.goto('https://freelance-learn-automation.vercel.app/login');
-        await page.fill('#username', user.username);
-        await page.fill('#password', user.password);
+        await page.fill('#email1', user.username);
+        await page.fill('#password1', user.password);
         await page.click('button[type="submit"]');
         //demo
         await expect(page.locator('#dashboard')).toBeVisible();
