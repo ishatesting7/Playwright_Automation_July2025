@@ -1,6 +1,6 @@
 // tests/loginWithExcel.spec.js
 const { test, expect } = require('@playwright/test');
-const { readExcelValue, writeExcelValue } = require('../../utility/readExcelDataValue.js');
+const { readExcelValue, writeExcelValue } = require('../../utility/readExcelDataValue.js').default;
 
 const filePath = 'TestDataPRright.xlsx';
 const { data, workbook, sheetName } = readExcelValue(filePath);
