@@ -11,14 +11,16 @@
     "smokeTestSuite": "npx playwright test --grep @smoke",
     "regressionTestSuite": "npx playwright test --grep @regression",
     "smokeTestSuiteviaProject": "npx playwright test --project=smoke",
-    "regressionTestSuiteviaProject": "npx playwright test --project=regression"
+    "regressionTestSuiteviaProject": "npx playwright test --project=regression",
+    "runAndGenerateAllureReport": "npx playwright test tests/UIAutomation/TC001Checkboxes.spec.js && allure generate ./allure-results --clean -o ./allure-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.54.1",
-    "@types/node": "^24.0.14"
+    "@types/node": "^24.0.14",
+    "allure-playwright": "^3.3.3"
   },
   "dependencies": {
     "xlsx": "^0.18.5"
