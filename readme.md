@@ -241,3 +241,174 @@ allure generate ./allure-results -o ./allure-report --clean
 Open the generated report:
 
 allure open ./allure-report
+
+
+========================================================
+
+API TESTING
+-----------
+FRONTEND
+BACKEND
+
+
+HOTEL(CUSTOMER) -----> WAITER (TAKE THE ORDER) -----> CHEF (COOK THE FOOD)
+
+
+CHEF(KITCHEN) -----> WAITER (TAKE THE FOOD) -----> GO TO CUSTOMER AND SERVE THE ORDER
+
+
+(CLIENT APPLICATION) ----> API ----> SERVER APPLICATION
+
+SERVER APPLICATION ----> API ----> (CLIENT APPLICATION)
+
+API APPLICATION PROGRAMMING INTERFACE
+-------------------------------------
+JSON - JAVASCRIPT OBJECT NOTATION
+
+{
+  "DATA":"123",
+  "DEMO":'233"
+}
+
+CONVERTING -- BYTE CODE -- 11001001
+
+{
+  "ISSUCCESS":TRUE
+}
+
+API METHODS(CRUD)
+-----------
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods
+
+GET
+POST
+PUT
+PATCH
+DELETE
+
+API STATUS CODE 
+---------------
+
+1XX
+2XX
+3XX
+4XX -- CLIENT SIDE ERROR
+5XX -- SERVER SIDE ERROR
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
+
+QUERY PARAM - ?DEMO=VALUE&DEV=123
+PATH PARAM - docs/Web/HTTP/Reference/Status -- ARE PATH PARAMETER
+
+
+END POINT -- https://www.airbnb.co.in/ --> PRODUCTION ENVIRONMENT
+
+END POINT -- stage.airbnb.co.in --> Stage ENVIRONMENT
+
+END POINT -- qa.airbnb.co.in --> QA ENVIRONMENT
+
+END POINT -- dev.airbnb.co.in --> DEV ENVIRONMENT
+
+localhost --> 
+
+
+GET METHOD
+END POINT --> 
+REQUEST HEADER ->
+REQUEST PAYLOAD -> OPTIONAL
+RESPONSE PAYLOAD
+
+-------------------------------
+
+API Documentation: Add a New Pet
+Endpoint:
+POST https://petstore.swagger.io/v2/pet
+
+Description:
+Adds a new pet to the store.
+
+Request Headers
+Header	Value	Description
+accept	application/json	Expected response format
+Content-Type	application/json	Request body format
+Request Body
+Fields:
+
+id (integer): Pet ID
+category (object): Pet category
+id (integer): Category ID
+name (string): Category name
+name (string): Pet name
+photoUrls (array of strings): URLs to pet photos
+tags (array of objects): Tags for the pet
+id (integer): Tag ID
+name (string): Tag name
+status (string): Pet status (available, pending, sold)
+Example Request
+Response
+Status Code: 200 OK (on success)
+Content-Type: application/json
+Body: Returns the created pet object.
+Reference
+Swagger Petstore API Docs
+
+
+------------------------------
+
+Test Cases: Add a New Pet API
+1. Add Pet with Valid Data
+Input: Valid pet object (all required fields)
+Expected Result: Status code 200 OK, response contains the created pet object with matching data.
+
+2. Add Pet with Missing Required Field (name)
+Input: Pet object missing the name field
+Expected Result: Status code 400 Bad Request or appropriate error, error message indicating missing name.
+
+3. Add Pet with Invalid Data Type (id as string)
+Input: Pet object with id as "abc" (string)
+Expected Result: Status code 400 Bad Request or appropriate error, error message indicating invalid data type.
+
+4. Add Pet with Empty photoUrls Array
+Input: Pet object with photoUrls: []
+Expected Result: Status code 200 OK, response contains the created pet object with empty photoUrls.
+
+5. Add Pet with Duplicate id
+Input: Pet object with an id that already exists
+Expected Result: Status code 409 Conflict or appropriate error, error message indicating duplicate ID.
+
+6. Add Pet with Invalid status Value
+Input: Pet object with status: "unknown"
+Expected Result: Status code 400 Bad Request or appropriate error, error message indicating invalid status value.
+
+7. Add Pet with Large Payload
+Input: Pet object with very large arrays for photoUrls and tags
+Expected Result: Status code 200 OK or 413 Payload Too Large if limits are exceeded.
+
+8. Add Pet with Special Characters in Fields
+Input: Pet object with special characters in name, category.name, and tags.name
+Expected Result: Status code 200 OK, response contains the created pet object with special characters preserved.
+
+9. Add Pet with Only Required Fields
+Input: Pet object with only required fields (id, name, photoUrls, status)
+Expected Result: Status code 200 OK, response contains the created pet object.
+
+10. Add Pet with Null Values in Optional Fields
+Input: Pet object with category and tags set to null
+Expected Result: Status code 200 OK, response contains the created pet object with category and tags as null.
+
+
+TOOLS FOR API
+
+POSTMAN - OPEN SOURCE
+JMETER - OPEN SOURCE
+BRUNO - OPEN SOURCE
+
+
+READY API - https://www.soapui.org/tools/readyapi/
+SWAGGER
+
+
+
+DOWNLOAD POSTMAN -
+https://www.postman.com/downloads/
