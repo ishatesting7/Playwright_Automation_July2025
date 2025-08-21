@@ -412,3 +412,31 @@ SWAGGER
 
 DOWNLOAD POSTMAN -
 https://www.postman.com/downloads/
+
+
+POSTMAN -
+
+CollectionVariable
+EnvironmentVariable
+  QA
+  - baseURL
+  - clientKey
+  - secret
+  Stage
+  - baseURL
+  - clientKey
+  - secret
+  Prod
+  - baseURL
+  - clientKey
+  - secret  
+GlobalVaraible
+
+------------------------------------------------------
+Base URL - https://petstore.swagger.io/#/pet
+
+
+Create a collection in postman and automate the same APIs in Playwright
+
+- Pet
+- Store
