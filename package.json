@@ -23,6 +23,7 @@
     "allure-playwright": "^3.3.3"
   },
   "dependencies": {
+    "dotenv": "^17.2.1",
     "xlsx": "^0.18.5"
   }
 }

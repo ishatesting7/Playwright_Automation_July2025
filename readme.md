@@ -433,7 +433,7 @@ EnvironmentVariable
 GlobalVaraible
 
 ------------------------------------------------------
-Base URL - https://petstore.swagger.io/#/pet
+Base URL - https://petstore.swagger.io/#/pet (21st Aug)
 
 
 Create a collection in postman and automate the same APIs in Playwright
