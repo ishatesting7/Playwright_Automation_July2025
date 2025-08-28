@@ -440,3 +440,61 @@ Create a collection in postman and automate the same APIs in Playwright
 
 - Pet
 - Store
+
+Authorization and Authentication
+--------------------------------
+
+401 - Unauth
+--Credentials
+-Basic Auth -- atob() and btoa()
+-Bearer Token
+-JWT Token
+-API Key
+
+
+403 - Forbidden
+---------------------------------------------------
+
+CICD Process 
+------------
+
+Continuous Integration and Continuous Delivery
+
+Got the Access for Project
+  - BankAssetManagement
+    -Module1
+    -Module2
+    -Module3
+    -Module4
+    -Module5
+      -TC1
+      -TC2
+
+    -PR - Pull Request
+
+-- QA Member - Module 5 - TC1 and TC2 - Pull Req - Code will merge with Main
+-- After that -- CICD -- Once the code is push to main -- Please run the complete project in the Azure Pipeline, Jenkins Pipeline
+
+YAML File - 
+
+DevOps -- Migrating the Dev code
+--- QA
+--- Stage
+--- UAT
+
+QA --
+Today in QA - 
+Today in Stage - 
+
+DevSecOps
+
+JENKINSFILE
+-----------
+
+
+
+
+    
+
+
+
