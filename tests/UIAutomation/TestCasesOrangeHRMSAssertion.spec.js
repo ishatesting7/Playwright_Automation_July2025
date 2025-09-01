@@ -39,7 +39,7 @@ test('test with negative username and password', async ({ page }) => {
   });
 
 
-  test.only('Validate the forgot password functionality', async ({ page }) => {
+  test('Validate the forgot password functionality', async ({ page }) => {
 
 
     const chr = 'abcdefghijklmnopqrstuvxyz0123456789'
