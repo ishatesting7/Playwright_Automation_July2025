@@ -22,5 +22,17 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install Allure commandline
+        run: npm install -g allure-commandline --save-dev
+
       - name: Run Playwright tests
         run: npx playwright test
+
+      - name: Generate Allure Report
+        run: allure generate ./allure-results -o ./allure-report --clean
+
+      - name: Upload Allure Report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: ./allure-report
