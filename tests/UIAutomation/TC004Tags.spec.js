@@ -7,7 +7,7 @@ test('Tags Tag 1 @Smoke', async({page}) => {
 })
 test('Tags Tag 2 @Smoke', async({page}) => {
 
-    console.log('I am in smoke tag 2')
+    console.log('I in smoke tag 2')
 
 })
 test('Tags Tag 1 @Regression', async({page}) => {
