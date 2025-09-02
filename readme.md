@@ -491,10 +491,42 @@ DevSecOps
 JENKINSFILE
 -----------
 
+BDD Cucumber - Gherkin Syntax
+------------------------------
 
+PAGE OBJECT MODEL --> Converted in BDD
 
+Keywords
+- Feature file
 
-    
+GIVEN I am triggering an API for creating pet
+WHEN I am sending a new pet in the post request
+THEN pet id should be created
+AND status should be 201
+
+Updated - 
+
+Feature: Create a new pet via API
+
+Background:
+
+Scenario
+
+Scenario outline
+
+Given I initiate a request to create a pet using the API
+When I send the details of a new pet in a POST request
+Then a unique pet ID should be generated
+And the response status should be 201 Created
+
+Example
+sanjd | dsakn | dsan
+sanjd | dsakn | dsan
+sanjd | dsakn | dsan
+sanjd | dsakn | dsan
+sanjd | dsakn | dsan
+sanjd | dsakn | dsan
+
 
 
 
